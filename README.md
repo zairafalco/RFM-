@@ -1,21 +1,38 @@
-RFM/
-│
-├── RFM.ipynb                    # Main RFM analysis notebook
-├── RFM-3.ipynb                  # Extended RFM analysis
-├── QuintileBasedCluster.ipynb   # Quintile-based customer clustering
-├── RealFrequencyAnalysis.ipynb  # Frequency analysis
-└── README.md
-Methodology
+# 📊 RFM Customer Segmentation
 
-Data Loading & Cleaning — handling missing values, data types, outliers
-RFM Score Calculation — computing R, F, M scores per customer
-Quintile-based Segmentation — assigning scores using quintile distribution
-Clustering — applying unsupervised models to identify customer groups
-Visualization — plotting segment distributions and cluster profiles
+> Customer segmentation using RFM analysis and unsupervised clustering models.
 
+---
 
-📈 Key Outputs
+## 🎯 Project Overview
 
-Customer segments with distinct behavioural profiles
-Cluster visualization for business interpretation
-Actionable insights for marketing and retention strategies
+This project applies **RFM (Recency, Frequency, Monetary)** analysis to segment customers based on their purchasing behaviour. The goal is to identify distinct customer groups to support targeted marketing strategies and business decision-making.
+
+---
+
+## 🔍 What is RFM?
+
+| Metric | Description |
+|--------|-------------|
+| **Recency** | How recently did the customer make a purchase? |
+| **Frequency** | How often do they purchase? |
+| **Monetary** | How much do they spend? |
+
+---
+
+## 🛠️ Tech Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+
+- **Python** — data processing and analysis
+- **Pandas** — data manipulation and cleaning
+- **Scikit-learn** — clustering models
+- **Matplotlib / Seaborn** — data visualization
+- **Jupyter Notebook** — development environment
+
+---
+
+## 📁 Project Structure
